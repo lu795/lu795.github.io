@@ -1,0 +1,126 @@
+* {
+				padding: 0;
+				margin: 0;
+			}
+
+			body {
+				background-color: white;
+			}
+
+			.boxtop {
+				width: 100%;
+				height: 500px;
+				background-color: aqua;
+			}
+
+			.boxmain {
+				width: 100%;
+				height: 2300px;
+			}
+
+			.boxfoot {
+				width: 100%;
+				height: 30px;
+				background-color: powderblue;
+			}
+
+			.box1 {
+				width: 100%;
+				height: 90%;
+				background-image: url(大美耒阳.jpg);
+			}
+
+			.box2 {
+				width: 100%;
+				height: 10%;
+				background: blanchedalmond;
+			}
+
+			.box3 {
+				width: 33.333%;
+				height: 100%;
+				background: whitesmoke;
+				float: left;
+			}
+
+			.box4 {
+				width: 33.333%;
+				height: 100%;
+				background: aquamarine;
+				float: left;
+			}
+
+			.box5 {
+				width: 33.333%;
+				height: 100%;
+				background: pink;
+				float: left;
+			}
+
+			.box6 {
+				width: 100%;
+				height: 300px;
+				background: aquamarine;
+			}
+
+			.box7 {
+				width: 100%;
+				height: 300px;
+				background: aquamarine;
+			}
+
+			.box8 {
+				width: 100%;
+				height: 300px;
+				background: deepskyblue;
+			}
+
+			ul {
+				list-style-type: none;
+				overflow: hidden;
+			}
+
+			li {
+				float: left;
+				align-content: center;
+				width: 33.3%;
+			}
+
+			.box9 {
+				width: 100%;
+				height: 100px;
+			}
+
+			.box10 {
+				width: 100%;
+				height: 300px;
+				background: navajowhite;
+			}
+
+			.box11 {
+				width: 100%;
+				height: 100px;
+			}
+
+			.box12 {
+				width: 100%;
+				height: 296px;
+				background: navajowhite;
+			}
+
+			.box13 {
+				width: 100%;
+				background: aquamarine;
+			}
+
+			.bo14 {
+				width: 100%;
+				height: 300px;
+				background: whitesmoke;
+			}
+
+			.box15 {
+				width: 100%;
+				height: 370px;
+				background: aquamarine;
+			}
