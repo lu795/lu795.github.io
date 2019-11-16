@@ -1,0 +1,106 @@
+<html>
+	<head>
+		<script type="text/javascript">
+			function insCell() {
+				var y = document.getElementById('tr1').insertCell(2)
+				var x = document.getElementById('tr2').insertCell(2)
+				var n = document.getElementById('tr3').insertCell(2)
+				var m = document.getElementById('tr4').insertCell(2)
+				x.innerHTML = "..."
+				y.innerHTML = "网一最好看的女生之..."
+				n.innerHTML = "网一最好看的老师之..."
+				m.innerHTML = "..."
+			}
+		</script>
+		<script>
+			function insRow(){
+		    var table=document.getElementById("myTable");
+		    var row=table.insertRow(2);
+		    var cell1=row.insertCell(0);
+		    var cell2=row.insertCell(1);
+		    cell1.innerHTML="网一最好看的男生之...";
+		    cell2.innerHTML="...";
+		}
+		</script>
+		<script>
+			function myFunction(){
+			var z;
+			var r=confirm("你觉得我说的对吗？觉得说的对就点确认。");
+			if (r==true){
+				z="我也这么觉得";
+			}
+			else{
+				z="你可真没眼光";
+			}
+			document.getElementById("1").innerHTML=z;
+			document.getElementById("2").innerHTML=z;
+			document.getElementById("3").innerHTML=z;
+			document.getElementById("4").innerHTML=z;
+			document.getElementById("5").innerHTML=z;
+			
+		}
+		</script>
+		<style>
+			a{
+				text-decoration: none;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 align="center">
+			<font color="red" face="楷体">网络工程一班男神女神颜值榜</font>
+		</h1>
+		<table border="1" style="margin: auto;">
+			<tr id="tr1">
+				<th>网一最好看的女生之一</th>
+				<th>网一最好看的女生之二</th>
+			</tr>
+			<tr id="tr2">
+				<td>ZYF</td>
+				<td>MWN</td>
+			</tr>
+		</table>
+		<br />
+
+		<table id="myTable" border="1" style="margin: auto;">
+			<tr>
+				<td>网一最好看的男生之一</td>
+				<td>WO...</td>
+			</tr>
+			<tr>
+				<td>网一最好看的男生之二</td>
+				<td>WO...</td>
+			</tr>
+		</table>
+		</br>
+		<table border="1" style="margin: auto;">
+			<tr id="tr3">
+				<th>网一最好看的老师之一</th>
+				<th>网一最好看的老师之二</th>
+			</tr>
+			<tr id="tr4">
+				<td>LY</td>
+				<td>LBD</td>
+			</tr>
+		</table>
+		</br>
+		<div style="text-align:center; vertical-align:middel;"><input type="button" onclick="insRow(),insCell()" value="知道更多"></div>
+		</br>
+		<div style="text-align:center; vertical-align:middel;"><button type="button"><a href="lu795,github,io/eight/eight">
+					<font color="black"></font>收起表格和问答
+				</a></button></div>
+		</br>
+		<div style="text-align:center; vertical-align:middel;"><button onclick="myFunction()">观后问答</button></div>
+
+		<p id="1" align="center">
+		</p>
+		<p id="2" align="center">
+		</p>
+		<p id="3" align="center">
+		</p>
+		<p id="4" align="center">
+		</p>
+		<p id="5" align="center">
+		</p>
+	</body>
+</html>
