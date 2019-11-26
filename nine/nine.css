@@ -1,0 +1,52 @@
+*{
+	margin: auto;
+	padding: 0px;
+}
+body{
+	background-color: paleturquoise;
+}
+fieldset{
+	margin: auto;
+	text-align: center;
+}
+fieldset:hover{
+	background-color: white;
+	border: 1px solid red;
+}
+legend{
+	size: 30px;
+}
+legend:hover{
+	color: red;
+}
+.teshu{
+	text-align: left;
+	padding: 20px;
+}
+.top{
+	margin-top: 20px;
+	height: 100px;
+	margin-left: 100px;
+	margin-right: 100px;
+	text-align: center;
+}
+.main{
+	height: 2000px;
+	
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-bottom: 50px;
+	border: 1px solid lightslategray;
+}
+.foot{
+	height: 100px;
+	background-color:#7FFFD4;
+	text-align: center;
+	color: gray;
+	line-height: 70px
+	font-size: 13px;
+}
+.foot:hover{
+	background-color: white;
+	border: 1px solid red;
+}
